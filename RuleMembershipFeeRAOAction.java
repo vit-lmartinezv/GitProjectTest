@@ -19,6 +19,7 @@ public class RuleMembershipFeeRAOAction extends AbstractRuleExecutableSupport im
 {
 	protected void performAction(final RuleActionContext context, final BigDecimal amount, final BigDecimal maxDiscount)
 	{
+		//comentario para test git
 		final CartRAO cartRao = context.getCartRao();
 
 		// TODO call custom service to get the appropriate council fee product based on the council id of the order entry with the membership product and add it to the cart
